@@ -101,8 +101,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin
 
 PRODUCT_PACKAGES += \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
+    libmmcamera_faceproc_system \
+    libmmcamera_faceproc2_system \
     libmcf-qc-fd-offline \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \

@@ -14,7 +14,8 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmmcamera_faceproc",
+    name: "libmmcamera_faceproc_system",
+    stem: "libmmcamera_faceproc",
     owner: "motorola",
     strip: {
         none: true,
@@ -48,7 +49,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmmcamera_faceproc2",
+    name: "libmmcamera_faceproc2_system",
+    stem: "libmmcamera_faceproc2",
     owner: "motorola",
     strip: {
         none: true,
