@@ -13,57 +13,25 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/river/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/river/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/river/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/motorola/river/proprietary/vendor/etc/camera/mot_ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov12a10_chromatix.xml \
+    vendor/motorola/river/proprietary/vendor/etc/camera/mot_s5k4h7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k4h7_chromatix.xml \
+    vendor/motorola/river/proprietary/vendor/etc/camera/mot_s5k5e9_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k5e9_chromatix.xml \
     vendor/motorola/river/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
     vendor/motorola/river/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
+    vendor/motorola/river/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/motorola/river/proprietary/vendor/etc/libnfc-nxp-gcf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-gcf.conf \
+    vendor/motorola/river/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_624.xml \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml \
     vendor/motorola/river/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml \
+    vendor/motorola/river/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/motorola/river/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/motorola/river/proprietary/vendor/etc/thermal-engine-river.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-river.conf \
+    vendor/motorola/river/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/river/proprietary/vendor/firmware/aw869x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_haptic.bin \
     vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Argo_Navis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Argo_Navis.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Attentive.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Attentive.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Awake.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Awake.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Bird_Loop.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Bird_Loop.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Brilliant_Times.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Brilliant_Times.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Chimey_Phone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Chimey_Phone.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Complex.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Complex.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Crazy_Dream.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Crazy_Dream.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Curve_Ball_Blend.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Curve_Ball_Blend.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Digital_Phone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Digital_Phone.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Electrovision.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Electrovision.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Ether_Shake.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Ether_Shake.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Fateful_Words.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Fateful_Words.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Flutey_Phone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Flutey_Phone.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Future_Funk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Future_Funk.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Future_Hi_Tech.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Future_Hi_Tech.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Girtab.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Girtab.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Hello.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Hello.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Hexagon.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Hexagon.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Hydra.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Hydra.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Insert_Coin.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Insert_Coin.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Jumping_Dots.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Jumping_Dots.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Keys.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Keys.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Loopy.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Loopy.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Loopy_Lounge.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Loopy_Lounge.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Modular.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Modular.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Momentum.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Momentum.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Morning.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Morning.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Moto.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Moto.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Natural.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Natural.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_New_Player.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_New_Player.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Onward.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Onward.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Organ_Dub.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Organ_Dub.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Overclocked.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Overclocked.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Pegasus.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Pegasus.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Pyxis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Pyxis.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Regrade.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Regrade.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Scarabaeus.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Scarabaeus.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Sceptrum.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Sceptrum.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Simple.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Simple.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Solarium.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Solarium.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Sparse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Sparse.bin \
-    vendor/motorola/river/proprietary/vendor/firmware/aw869x_rtp_Terrabytes.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp_Terrabytes.bin \
     vendor/motorola/river/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/motorola/river/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/motorola/river/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
@@ -98,7 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/river/proprietary/vendor/firmware/marley-dsp2-aov-frontend.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-frontend.wmfw \
     vendor/motorola/river/proprietary/vendor/firmware/marley-dsp2-aov-vrgain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-vrgain.bin \
     vendor/motorola/river/proprietary/vendor/firmware/marley-dsp3-aov-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp3-aov-control.wmfw \
-    vendor/motorola/river/proprietary/vendor/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin
+    vendor/motorola/river/proprietary/vendor/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts-tianman-NT36672A-181127-0b-river.bin \
+    vendor/motorola/river/proprietary/vendor/usr/idc/uinput-egis.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-egis.idc \
+    vendor/motorola/river/proprietary/vendor/usr/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-egis.kl
 
 PRODUCT_PACKAGES += \
     libmmcamera_faceproc_system \
